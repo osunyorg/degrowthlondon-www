@@ -2,13 +2,19 @@
 
 en:
   title: >-
-    www
+    Degrowth London
   contentDir: content/en
   languageCode: en
   languageName: English
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            hello@degrowthlondon.org
+          value: >-
+            mailto:hello@degrowthlondon.org
 
   taxonomies:
     administrator: administrators
