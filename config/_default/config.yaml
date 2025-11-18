@@ -1,13 +1,18 @@
-theme: osuny
+theme: 
+  - osuny
+  - osuny-plugin-centered-header
+  - osuny-plugin-centered-footer
 _merge: deep
 params:
+  breadcrumb:
+    position: none
   summary:
     position: hero
   search:
     active: true
   logo:
-    header: ''
-    footer: ''
+    header: '/assets/images/logo.svg'
+    footer: '/assets/images/icon-white.svg'
   home:
     head:
       title: site
