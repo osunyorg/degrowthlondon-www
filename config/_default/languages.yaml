@@ -15,6 +15,12 @@ en:
             hello@degrowthlondon.org
           value: >-
             mailto:hello@degrowthlondon.org
+      social_networks:
+        instagram:
+          label: >-
+            degrowthlondon
+          value: >-
+            https://instagram.com/degrowthlondon
 
   taxonomies:
     administrator: administrators
