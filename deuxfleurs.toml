@@ -13,3 +13,20 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/will-carr/"
+to = "/persons/will-carr/"
+
+[[redirects]]
+from = "/will-carr/blog/"
+to = "/persons/will-carr/blog/"
+
+[[redirects]]
+from = "/exhibitions-archives/"
+to = "/exhibitions/exhibitions-archives/"
+
+[[redirects]]
+from = "/posts/"
+to = "/blog/"
+
