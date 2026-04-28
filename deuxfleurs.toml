@@ -14,3 +14,19 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/will-carr/index.html"
+to = "/persons/will-carr/"
+
+[[redirects]]
+from = "/will-carr/blog/index.html"
+to = "/persons/will-carr/blog/"
+
+[[redirects]]
+from = "/exhibitions-archives/index.html"
+to = "/exhibitions/exhibitions-archives/"
+
+[[redirects]]
+from = "/posts/index.html"
+to = "/blog/"
+
